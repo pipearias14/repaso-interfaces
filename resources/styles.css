@@ -1,0 +1,31 @@
+legend {
+    font-size: 40px;
+    color: red;
+  }
+  
+  h1 {
+    color: green;
+    text-align: center;
+  }
+  
+  .textfield {
+    border: 2px solid rgb(10, 10, 12);
+  }
+  
+  .backgroundfield {
+    background-color: gray;
+  }
+  
+  #txtEmail {
+    background-color: rgba(100, 100, 100, 0.5);
+  }
+  
+  .btn {
+    border: 1px double #545454;
+    background: #efefef;
+  }
+  
+  .btn:hover {
+    background: #ff00ff;
+    cursor: pointer;
+  }

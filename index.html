@@ -1,0 +1,66 @@
+<<html>
+    <head>
+      <meta charset="UTF-8" />
+      <link href="resources/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+      <div>
+        <h1>Repaso de Diseño de Interfaces</h1>
+        <fieldset>
+          <legend>Contacto</legend>
+          <table>
+            <tr>
+              <td>
+                <label> Name </label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  id="txtName"
+                  class="textfield backgroundfield"
+                />
+              </td>
+              <td>
+                <label> Family Name </label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  id="txtLastname"
+                  class="textfield backgroundfield"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label> Email </label>
+              </td>
+              <td>
+                <input
+                  type="email"
+                  id="txtEmail"
+                  class="textfield backgroundfield"
+                />
+              </td>
+              <td>
+                <label> Phone </label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  id="txtPhone"
+                  class="textfield backgroundfield"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="4">
+                <button id="btnSend" class="btn" onclick="Send()">Send</button>
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+      </div>
+      <script src="resources/functions.js" type="text/javascript"></script>
+    </body>
+  </html>
